@@ -53,13 +53,37 @@
     <select name="example1" id="example1" placeholder="Select Example">
 
     </select>
+    // --------------------------------------------------
+    //1. Blade componenet yarat
+    //2. option-lari dynamic
+    //3. Blade componentine name- dynamic oturesen (id, classname, option classname, option selected)
+    //*. option complex bir component olsun
 
+    // --------------------------------------------------
+    // register as blade directive
+
+    //---------------------------------------------------
+    // extract as a package
     <select name="example2" id="example2" placeholder="Test">
         <option value="s">2</option>
         <option value="s">3</option>
         <option value="s">4</option>
         <option value="s">5</option>
     </select>
+
+    // Select::make()->name('first-ever-select')->id('i-d-know')->option([])->className()
+    // @select()->name('first-ever-select')->id('i-d-know')->option([])->className()
+    // <x->
+
+    //--------------------------------------------------
+    // Factory pattern. 
+    // 1. oxu-oyren, 
+    // 2. laravelde bunun numunesi
+    //Design pattern category
+    // 1. Creational
+    // 2. Behavioral
+    // 3. Sturctural
+    //    Decorator- wrapper
 
     <script>
         $('#example2').select2()
