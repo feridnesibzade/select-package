@@ -85,6 +85,8 @@
     // 3. Sturctural
     //    Decorator- wrapper
 
+    // Laravel Life cycle
+
     <script>
         $('#example2').select2()
     </script>
