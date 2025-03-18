@@ -48,7 +48,16 @@
 
 <body>
 
+    {{-- <Form:select> --}}
 
+    {{-- <Form:grid>
+        <Form:col :col="2">
+            <Form:select :name=""></Form:select>
+        </Form:col>
+        <Form:col :col="2">
+            <Form:text :name=""></Form:text>
+        </Form:col>
+    </Form:grid> --}}
 
     <select name="example1" id="example1" placeholder="Select Example">
 
@@ -89,7 +98,6 @@
                     selectElement.appendChild(option);
                 });
             }).catch((e) => {
-                console.log(e)
                 changeContentOfSelect(selectElement, 'Error happend!');
             });
         }
@@ -118,6 +126,7 @@
             }
         }
     </script>
+    @stack('foot')
 </body>
 
 </html>
