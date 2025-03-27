@@ -33,3 +33,15 @@
     }
 },
 ```
+
+## 2025-03-27
+### TODO
+1. Adaptar pattern oyren. Laravel-de harda istifade olunubsa goster.
+2. Laracast
+    1. Telescope
+    2. PHPStan
+4. Composer optionlari
+5. Reservation proyektine
+    1. ide-helper install ele
+    2. Telescope-u install ele. yalniz non-prod environment-de ishlesin.
+        1. Database migration yalniz production olmayan environment-lerde ishlemelidir.
